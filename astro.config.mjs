@@ -1,13 +1,11 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import starlightBlog from 'starlight-blog'
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://engineer-meetup.com',
-	base: '/engineer-meetup-hp-astro',
+	base: '/',
 	integrations: [
-		starlightBlog(),
 		starlight({
 			title: 'エンジニア集会',
 			social: {
