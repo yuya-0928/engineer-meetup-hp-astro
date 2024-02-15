@@ -3,8 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://engineer-meetup.com',
-	base: '/',
+	site: 'https://yuya-0928.github.io/engineer-meetup-hp-astro/',
+	base: '/engineer-meetup-hp-astro',
 	integrations: [
 		starlight({
 			title: 'エンジニア集会',
