@@ -4,6 +4,8 @@ import starlightBlog from 'starlight-blog'
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://engineer-meetup.com',
+	base: '/engineer-meetup-hp-astro',
 	integrations: [
 		starlightBlog(),
 		starlight({
