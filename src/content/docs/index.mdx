@@ -1,0 +1,36 @@
+---
+title: エンジニア集会
+description: VR空間を中心に開催されている技術者コミュニティ
+template: splash
+hero:
+  tagline: VR空間を中心に開催されている技術者コミュニティ
+  image:
+    file: ../../assets/meetup_photo.jpeg
+  actions:
+    - text: エンジニア集会とは
+      link: /community/what_is_engineer-meetup/
+      icon: right-arrow
+      variant: primary
+    - text: Read the Starlight docs
+      link: https://starlight.astro.build
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## エンジニア集会の特徴
+
+<CardGrid stagger>
+	<Card title="毎週金曜日の飲み会イベント" icon="star">
+		毎週金曜日にVRChatやclusterで飲み会イベントを開催
+	</Card>
+	<Card title="ジャンルフリーの技術者交流" icon="random">
+		ハードウェア、ソフトウェア、工学などジャンルを問わず全てのエンジニアが交流できるコミュニティ
+	</Card>
+	<Card title="定期的にLT会を開催" icon="document">
+		定期的にLT会を開催し、メンバーが自分の技術を発表できる場を提供
+	</Card>
+	<Card title="Discordコミュニティ" icon="discord">
+		雑談や交流ができるDiscordサーバー
+	</Card>
+</CardGrid>
