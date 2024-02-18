@@ -8,6 +8,15 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'エンジニア集会',
+			head: [
+				{
+					tag: 'meta',
+					attrs: {
+						property: 'og:image',
+  					const: 'https://engineer-meetup.com/ogp.jpeg',
+					},
+				},
+			],
 			social: {
 				discord: 'https://discord.gg/zaTjFtDRP7',
 				'x.com': 'https://twitter.com/VRENGAssoc',
