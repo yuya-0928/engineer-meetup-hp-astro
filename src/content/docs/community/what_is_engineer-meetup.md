@@ -5,6 +5,8 @@ description: エンジニア集会とは？
 
 エンジニア集会とは、様々な技術者がVRSNSを中心に技術者交流を行うことができるコミュニティです
 
+![VRChat会場の集合写真](../../../assets/engineer_drinking_meetup_in_vrchat.png)
+
 ## どんなジャンルのエンジニアが参加できますか？
 
 オールジャンルのエンジニアが参加可能です。  
