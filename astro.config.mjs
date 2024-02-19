@@ -13,7 +13,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						property: 'og:image',
-  					const: 'https://engineer-meetup.com/ogp.jpeg',
+  					content: 'https://engineer-meetup.com/ogp.jpeg',
 					},
 				},
 			],
